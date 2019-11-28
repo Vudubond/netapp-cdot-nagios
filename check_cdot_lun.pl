@@ -173,7 +173,7 @@ if($crit_msg){
     }
     exit 2;
 } elsif($warn_msg){
-    print "\nWARNING: $warn_msg\n";
+    print "WARNING: $warn_msg\n";
     if($ok_msg){
         print "\nOK: $ok_msg\n";
     }
